@@ -1,12 +1,14 @@
 {
 	"name": "fcc-learn-npm-package-json",
 	"author": "Purohit Iyer",
+	"description": "npm apis and microservices challenges",
 	"dependencies": {
-		"express": "^4.14.0"
+		"express": "^4.14.0",
+		"nodemon": "^2.0.12"
 	},
 	"main": "server.js",
 	"scripts": {
-		"start": "node server.js"
+		"start": "nodemon server.js"
 	},
 	"repository": {
 		"type": "git",
